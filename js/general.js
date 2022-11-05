@@ -76,7 +76,7 @@ async function sendEmail(evt){
         destinatario: 'mgutierreze@quintaapp.com.mx',
         // destinatario: 'diego.bocanegra.trenado@gmail.com',
         asunto: "Cliente requiere demo",
-        contenido: `El cliente ${nombre} de la empresa ${empresa} quiere ver una dema. Ponte el contacto con el al telefono ${tel}`
+        contenido: `El cliente ${nombre} de la empresa ${empresa} require ver una demo. Por favor ponte en contacto con el al teléfono ${tel}.`
     }
 
     let res = await fetch('http://ec2-54-241-64-82.us-west-1.compute.amazonaws.com:2999/enviar-correo', {
