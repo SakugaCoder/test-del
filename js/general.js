@@ -73,8 +73,8 @@ async function sendEmail(evt){
     let tel = document.getElementsByName('tel').value;
     let data =
     {
-        // destinatario: 'mgutierreze@quintaapp.com.mx',
-        destinatario: 'diego.bocanegra.trenado@gmail.com',
+        destinatario: 'mgutierreze@quintaapp.com.mx',
+        // destinatario: 'diego.bocanegra.trenado@gmail.com',
         asunto: "Cliente requiere demo",
         contenido: `El cliente ${nombre} de la empresa ${empresa} quiere ver una dema. Ponte el contacto con el al telefono ${tel}`
     }
